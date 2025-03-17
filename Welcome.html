@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PinoyFlask - Hydration Redefined</title>
+    <link rel="stylesheet" href="../css/Home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<!-- Cart Overlay -->
+<div id="cartOverlay" class="cart-overlay">
+    <div class="cart-content">
+        <h2>REVIEW YOUR CART</h2>
+        <p>Your cart is currently empty.</p>
+        <button class="close-cart" onclick="toggleCart()">CONTINUE SHOPPING</button>
+    </div>
+</div>
+
+<body>
+    <!-- Header Section -->
+    <header class="header-bg">
+        <div class="logo">
+            <img src="../images/pflogo.png" alt="PinoyFlask Logo">
+        </div>
+        <div class="header-icons"> 
+            <div class="search-container">
+                <img src="../images/search.png" alt="Search" class="search-icon" onclick="toggleSearch()">
+                <input type="text" id="searchBar" class="search-bar" placeholder="Search keywords">
+            </div>
+            <!-- Cart Icon -->
+            <img src="../images/Cart-logo.png" alt="Cart" class="cart-icon">
+            <!--User icon -->
+            <img src="../images/User-icon.png" alt="User" class="user-icon">
+            <a href="#" class="sign-in">Sign In</a>
+            <span class="separator">|</span>
+            <a href="#" class="sign-up">Sign Up</a>
+            <img src="../images/Cart-logo.png" alt="Cart" class="cart-icon">
+        </div>
+    </header>
+    <!-- Hero Section -->
+    <section class="hero">
+        <video autoplay muted loop playsinline class="hero-video">
+            <source src="../videos/vid-bg.mp4" type="video/mp4">
+        </video>
+        <div class="hero-content">
+            <h1>Welcome, Hydrangea</h1>
+            <p>Stay refreshed, like a cool island breeze from the shores of the Philippines.</p>
+            <a href="Collections.html" class="cta-button">Shop Now</a>
+        </div>
+    </section>
+   <!-- Colors Section -->
+    <section class="color-match-section">
+        <h2>FIND YOUR COLOR MATCH</h2>
+        <div class="carousel-container">
+            <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+            <div class="carousel">
+                <div class="carousel-item">
+                    <img src="../images/1.png" alt="Sakura">
+                    <p>Cherry Blossom</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="../images/2.png" alt="Hot Coral">
+                    <p>Hot Coral</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="../images/3.png" alt="Meadow">
+                    <p>Meadow</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="../images/4.png" alt="Splash">
+                    <p>Splash</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="../images/3.png" alt="Meadow">
+                    <p>Meadow</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="../images/3.png" alt="Meadow">
+                    <p>Meadow</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="../images/3.png" alt="Meadow">
+                    <p>Meadow</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="../images/3.png" alt="Meadow">
+                    <p>Meadow</p>
+                </div>
+            </div>
+            <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section> 
+    <!-- Features Section -->
+    <section class="features">
+        <div class="feature">
+            <img src="../images/eco-friendly.png" alt="Eco-Friendly">
+            <h2>Eco-Friendly</h2>
+            <p>Our bottles are made from sustainable materials.</p>
+        </div>
+        <div class="feature">
+            <img src="../images/durable-design.png" alt="Durable Design">
+            <h2>Durable Design</h2>
+            <p>Built to last with high-quality materials.</p>
+        </div>
+        <div class="feature">
+            <img src="../images/fast-shipping.png" alt="Fast Shipping">
+            <h2>Fast Shipping</h2>
+            <p>Get your bottles delivered quickly and safely.</p>
+        </div>
+    </section>
+    <!-- Newsletter Subscription Section -->
+<section class="newsletter">
+    <div class="newsletter-container">
+        <div class="newsletter-text">
+            <h1>BE THE FIRST TO KNOW</h1>
+            <p>Hear about new arrivals, sales, and other news.</p>
+        </div>
+        <div class="newsletter-form">
+            <input type="email" placeholder="Your Email Address">
+            <button type="submit">
+                <i class="fas fa-arrow-right"></i>
+            </button>
+        </div>
+    </div>
+</section>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 PinoyFlask. All rights reserved.</p>
+    </footer>
+    <script src="../js/script.js"></script>
+</body>
+</html>
