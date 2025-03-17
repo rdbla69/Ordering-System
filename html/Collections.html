@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Collections</title>
+        <link rel="stylesheet" href="../css/Collections.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    </head>
+    <!-- Cart Overlay -->
+<div id="cartOverlay" class="cart-overlay">
+    <div class="cart-content">
+        <h2>REVIEW YOUR CART</h2>
+        <p>Your cart is currently empty.</p>
+        <button class="close-cart" onclick="toggleCart()">CONTINUE SHOPPING</button>
+    </div>
+</div>
+<body>
+   <!-- Header Section -->
+   <header class="header-bg">
+    <div class="logo">
+        <img src="../images/pflogo.png" alt="PinoyFlask Logo">
+    </div>
+    <div class="header-icons"> 
+        <div class="search-container">
+            <img src="../images/search.png" alt="Search" class="search-icon" onclick="toggleSearch()">
+            <input type="text" id="searchBar" class="search-bar" placeholder="Search keywords">
+        </div>
+        <!-- Cart Icon -->
+        <img src="../images/Cart-logo.png" alt="Cart" class="cart-icon">
+        <!--User icon -->
+        <img src="../images/User-icon.png" alt="User" class="user-icon">
+        <a href="#" class="sign-in">Sign In</a>
+        <span class="separator">|</span>
+        <a href="#" class="sign-up">Sign Up</a>
+        <img src="../images/Cart-logo.png" alt="Cart" class="cart-icon">
+    </div>
+</header>
+    <section class="products-grid">
+        <div class="product">
+            <img src="../images/1.png" alt="Black Chroma">
+            <h2>Black Chroma</h2>
+            <p>₱1,200</p>
+            <button onclick="addToCart('Black Chroma', 1200)">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="../images/1.png" alt="Fuchsia">
+            <h2>Fuchsia</h2>
+            <p>₱1,100</p>
+            <button onclick="addToCart('Fuchsia', 1100)">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="../images/1.png" alt="Cream Gloss Deco">
+            <h2>Cream Gloss Deco</h2>
+            <p>₱1,300</p>
+            <button onclick="addToCart('Cream Gloss Deco', 1300)">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="../images/1.png" alt="Mist">
+            <h2>Mist</h2>
+            <p>₱1,250</p>
+            <button onclick="addToCart('Mist', 1250)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="../images/1.png" alt="Fuchsia">
+            <h2>Fuchsia</h2>
+            <p>₱1,100</p>
+            <button onclick="addToCart('Fuchsia', 1100)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="../images/1.png" alt="Fuchsia">
+            <h2>Fuchsia</h2>
+            <p>₱1,100</p>
+            <button onclick="addToCart('Fuchsia', 1100)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="../images/1.png" alt="Fuchsia">
+            <h2>Fuchsia</h2>
+            <p>₱1,100</p>
+            <button onclick="addToCart('Fuchsia', 1100)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="../images/1.png" alt="Fuchsia">
+            <h2>Fuchsia</h2>
+            <p>₱1,100</p>
+            <button onclick="addToCart('Fuchsia', 1100)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="../images/1.png" alt="Fuchsia">
+            <h2>Fuchsia</h2>
+            <p>₱1,100</p>
+            <button onclick="addToCart('Fuchsia', 1100)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="../images/1.png" alt="Fuchsia">
+            <h2>Fuchsia</h2>
+            <p>₱1,100</p>
+            <button onclick="addToCart('Fuchsia', 1100)">Add to Cart</button>
+        </div>
+    </section>
+    <script src="../js/script.js"></script>
+</body>
+</html>
