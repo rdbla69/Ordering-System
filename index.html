@@ -24,10 +24,11 @@
             <img src="images/pflogo.png" alt="PinoyFlask Logo">
         </div>
         <div class="header-icons"> 
-            <div class="search-container">
-                <img src="images/search.png" alt="Search" class="search-icon" onclick="toggleSearch()">
-                <input type="text" id="searchBar" class="search-bar" placeholder="Search keywords">
-            </div>
+          <div class="search-container">
+                <img src="images/search.png" alt="Search" class="search-icon">
+                <input type="text" id="searchBar" class="search-bar" placeholder="Search products..." onkeyup="showDropdown()" onclick="showDropdown()">
+                <ul id="searchDropdown" class="dropdown-list"></ul>
+            </div>       
             <!-- Cart Icon -->
             <img src="images/Cart-logo.png" alt="Cart" class="cart-icon">
             <!--User icon -->
