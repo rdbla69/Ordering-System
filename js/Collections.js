@@ -75,7 +75,6 @@ function toggleCart() {
     let cartOverlay = document.getElementById("cartOverlay");
     cartOverlay.classList.toggle("active");
 }
-
 // Open cart when clicking the cart icon
 document.addEventListener("DOMContentLoaded", function () {
     let cartIcon = document.querySelector(".cart-icon");
@@ -94,4 +93,3 @@ function selectSize(btn) {
     // Add active class to the clicked button
     btn.classList.add("active");
 }
-
